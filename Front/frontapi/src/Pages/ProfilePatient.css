@@ -1,0 +1,30 @@
+.profile {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .profile button {
+    padding: 10px 20px;
+    background-color: #2D7068;
+    margin: 10px 10px 10px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .profile button:hover {
+    background-color: #879b77;
+  }
+  

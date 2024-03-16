@@ -1,0 +1,56 @@
+.prescription {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #ccc;
+    background-color: #fff;
+  }
+  
+  .prescription h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prescription p {
+    margin-bottom: 10px;
+  }
+  
+  .prescription label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .prescription input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .prescription button {
+    background-color: #2D7068;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prescription button:hover {
+    background-color: #333;
+  }
+  
+  .prescription-data {
+    margin-bottom: 20px;
+  }
+  
+  .prescription-data p {
+    font-size: 16px;
+  }
+  
+  .prescription-form {
+    margin-top: 20px;
+  }
+  

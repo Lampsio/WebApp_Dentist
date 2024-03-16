@@ -1,0 +1,51 @@
+.edit-appointment {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #ccc;
+    background-color: #fff;
+  }
+  
+  .edit-appointment  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .edit-appointment .name {
+    font-weight: bold;
+  }
+
+  .edit-appointment label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit-appointment input, textarea {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-appointment select {
+    width: 140px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-appointment button {
+    background-color: #2D7068; /* Kolor zgniłej zieleni */
+    color: white;
+    border: 1px solid #4fbdb0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 20px 10px 10px 10px;
+  }
+  
+  .edit-appointment button:hover {
+    background-color: #333;
+  }
+  

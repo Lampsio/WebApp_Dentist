@@ -1,0 +1,18 @@
+.prescription-data {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #ccc;
+    background-color: #fff;
+  }
+  
+  .prescription-data  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prescription-data .name{
+    font-weight: bold;
+  }

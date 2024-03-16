@@ -1,0 +1,64 @@
+.create-appointment {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .create h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 512px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"],
+  input[type="time"] {
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .services-list {
+    margin-bottom: 20px;
+  }
+  
+  .service-item {
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin: 0 5px 0 0;
+  }
+  
+  .butto {
+    background-color: #2D7068; /* Kolor zgniłej zieleni */
+    color: white;
+    border: 1px solid #4fbdb0;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 20px 10px 10px 10px;
+  }
+  
+  .butto:hover {
+    background-color: #333;
+  }
+  

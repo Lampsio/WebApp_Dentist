@@ -1,0 +1,49 @@
+.login-form {
+  width: 350px;
+  margin: 20px auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.login-form button {
+  float: none; /* Remove default float */
+  margin: 0 auto; /* Center button horizontally */
+  width: 150px; /* Keep the button narrow */
+  padding: 10px; /* Keep the padding consistent */
+  background-color: #2D7068; /* Original background color */
+  color: #fff; /* Original text color */
+  border: none; /* Original border */
+  border-radius: 5px; /* Original border radius */
+  text-align: center; /* Center button text */
+  cursor: pointer; /* Original cursor style */
+
+  &:hover { /* Add hover styles */
+    background-color: #879b77; /* Change background color on hover */
+    color: #fff; /* Keep text color white */
+  }
+}
+
+.login-form p {
+  text-align: center;
+}
+
+.login-form.is-logged-in {
+  background-color: #008CBA;
+  color: #fff;
+}

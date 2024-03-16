@@ -1,0 +1,247 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+
+.text {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 600px;
+  color: white;
+  align-self: center;
+  padding-bottom: 150px;
+}
+
+.text h1 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #2D7068; /* Kolor zgniłej zieleni */
+  color: white;
+  border: 1px solid #4fbdb0;
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: #879b77;
+}
+
+
+.image {
+  width: 40%;
+  text-align: right;
+  max-height: 800px; 
+  margin: 40px;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100%;
+  animation: zoom-smooth 4s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+}
+
+@keyframes zoom-smooth {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+/* Stylowanie kontenera z lekarzami */
+
+#container_two {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+/* Stylowanie nagłówka */
+
+.tytul_home {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Stylowanie divów z lekarzami */
+
+.lekarze {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lekarz {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylowanie zdjęcia lekarza */
+
+.lekarz img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+/* Stylowanie imienia i nazwiska lekarza */
+
+.lekarz h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Stylowanie specjalizacji lekarza */
+
+.lekarz p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Efekt podświetlenia po najechaniu */
+
+.lekarz:hover {
+  background-color: #ddd;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#container_three {
+  margin: 50px auto;
+  width: 80%;
+  text-align: center;
+}
+
+#container_three h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.uslugi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.usluga {
+  width: 45%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+  background-color: #fff;
+}
+
+.usluga:hover {
+  background-color: #ddd;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.lewo {
+  margin-right: 10%;
+}
+
+.prawo {
+  margin-left: 10%;
+}
+
+.usluga h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.usluga p {
+  margin-bottom: 10px;
+}
+
+.cena {
+  font-weight: bold;
+}
+
+#container_four {
+  padding: 20px;
+}
+
+#container_four .div-contact
+{
+  background-color: #2D7068;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #000000;
+  margin: 0px auto;
+  width: 900px;
+  height: 500px;
+}
+
+#container_four .contact-name {
+  color: #fff;
+}
+
+.tytul_home {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select:none;
+}
+
+.form-control:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color:#2D7068;
+  border-color: #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+

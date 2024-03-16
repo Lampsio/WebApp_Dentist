@@ -1,0 +1,51 @@
+body {
+  margin: 10;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2D7068;
+  background-image: url('./img/tlo_home.webp');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.img_logo {
+  max-height: 45px; /* Dostosuj wysokość do rozmiaru napisów */
+}
+
+.nav-items{
+  display: flex;
+  align-items: center;
+}
+
+.nav-items a {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.nav-items a.button {
+  background-color: #2D7068; /* Kolor zgniłej zieleni */
+  color: white;
+  border: 1px solid #4fbdb0;
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.nav-items a.button:hover {
+  background-color: #879b77; /* Jaśniejszy odcień zgniłej zieleni */
+}
+
+
+
+

@@ -1,0 +1,49 @@
+.patient-appointments {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  
+  .appointment {
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+  
+  .appointment h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .appointment ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment .butto-rece {
+    background-color: #2D7068; /* Kolor zgniłej zieleni */
+    color: white;
+    border: 1px solid #4fbdb0;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 20px 10px 10px 10px;
+  }
+
+  .appointment .butto-rece:hover{
+    background-color: #333;
+  }
+
+  .appointment .name{
+    font-weight: bold;
+  }
+
+  

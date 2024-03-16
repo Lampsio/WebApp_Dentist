@@ -1,0 +1,45 @@
+.appointments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  
+  .appointment {
+    width: 33%;
+    margin: 0 1% 1%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #ccc;
+    background-color: #fff;
+  }
+  
+  .appointment h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .appointment ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment .button {
+    width: 100%;
+    margin: 9px 9px 9px 9px;
+  }
+
+  .appointments .name {
+    font-weight: bold;
+  }
+  
